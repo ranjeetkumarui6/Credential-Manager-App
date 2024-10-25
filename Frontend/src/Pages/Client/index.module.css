@@ -1,0 +1,48 @@
+.clientcontainer{
+    background-image: url("../../assets/bnner1.avif");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.aboutecredential{
+    display: inline-block;
+    width: 70%;
+    margin: 0 auto;
+    font-size: 40px;
+    margin-left: auto;
+    color: none;
+    padding: 20px;
+    color: transparent;
+    background: linear-gradient(to right,cyan,white,rgb(0, 0, 255));
+    background-clip: text;
+    text-align: center;
+    text-shadow: 1px 1px 1px gray;
+}
+@media screen and (min-width:600px) and (max-width:801px) {
+    .aboutecredential{
+        font-size: 25px;
+    }
+    .clientcontainer{
+        height: 100vh;
+    }
+}
+@media screen and (min-width:400px) and (max-width:599px) {
+    .aboutecredential{
+        font-size: 20px;
+    }
+    .clientcontainer{
+        height: 100vh;
+    }
+}
+@media screen and (min-width:0px) and (max-width:399px) {
+    .aboutecredential{
+        font-size: 16px;
+    }
+    .clientcontainer{
+        height: 100vh;
+    }
+}

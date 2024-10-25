@@ -1,0 +1,91 @@
+.Navbarcontainer{
+    display: flex;
+    padding: 1rem 1rem !important;
+    box-shadow: 0 2px 5px 0 black;
+    background-color: #4A628A;
+    z-index: 2;
+    min-width: 320px;
+}
+.Navleft{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    color: var(--color);
+
+}
+.credential{
+    font-size: 3rem;
+    color: black;
+    border-radius: 2rem;
+    background-color: transparent;
+}
+.Navright{
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    justify-content: flex-end;
+    column-gap: 20px;
+    text-align: center;
+    font-weight: 500 !important;
+    text-shadow: 2px 2px 3px rgb(141, 141, 141);
+    color: white;
+    width: 80%;
+
+}
+.ViewDetails{
+    width: 150px;
+    padding: 0.5rem 1rem !important ;
+    border-radius: 2rem;
+    box-shadow: 0 0 12px 0 black;
+    background-color: #B9E5E8;
+    color: #222832;
+    border: none;
+    cursor: pointer;
+    transition: 1s;
+    
+}
+@media screen and (min-width:400px) and (max-width:600px) {
+    .ViewDetails{
+        width: 100px;
+        font-size: medium;
+    }
+    .credential{
+        font-size: 2.5rem;
+    }
+}
+@media screen and (min-width:0px) and (max-width:399px) {
+    .ViewDetails{
+        width: 80px;
+        font-size: 13px;
+    }
+    .credential{
+        font-size: 2rem;
+    }
+    .Navright{
+        column-gap: 10px;
+    }
+    .Navleft{
+        text-align: left;
+        justify-content: flex-start;
+    }
+}
+.veiwdeta{
+    color: #222832;
+}
+.veiwdeta:hover{
+    color: white;
+}
+.ViewDetails:hover{
+    box-shadow: none;
+    background-color:#222832;
+    color: white;
+
+}
+a{
+    text-decoration: none;
+    color: lightgray;
+}
+a:hover{
+    color: rgb(0, 255, 115);
+}

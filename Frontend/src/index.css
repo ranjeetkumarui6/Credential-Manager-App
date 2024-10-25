@@ -1,0 +1,17 @@
+*{
+  margin: 0% !important;
+  padding: 0% !important;
+  box-sizing: border-box !important;
+  font-family:poppiens;
+}
+body {
+  width: 100% !important;
+  height: 100% !important;
+  background-color: #789DBC;
+}
+#root{
+  --cardcolor:#EAD8B1;
+  --color:white;
+}
+
+
